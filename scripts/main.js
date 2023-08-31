@@ -1,4 +1,4 @@
-// main.js
+// main.js index
 document.getElementById("loginForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Evita que el formulario se envíe automáticamente
 
@@ -14,3 +14,15 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         alert("Credenciales incorrectas. Por favor, intenta de nuevo.");
     }
 });
+
+// main.js main
+
+// Definir variables con los valores de nombre, número de cliente y saldo
+var nombre = "Abner Rosales";
+var numeroCliente = "1707";
+var saldo = 900;
+
+// Actualizar el contenido de los elementos span con las variables
+document.getElementById("nombreUsuario").textContent = nombre;
+document.getElementById("numeroCliente").textContent = numeroCliente;
+document.getElementById("saldo").textContent = saldo;
