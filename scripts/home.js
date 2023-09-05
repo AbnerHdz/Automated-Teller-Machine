@@ -9,3 +9,10 @@ var saldo = 1000;
 document.getElementById("nombreUsuario").textContent = nombre;
 document.getElementById("numeroCliente").textContent = numeroCliente;
 document.getElementById("saldo").textContent = saldo;
+
+// Leer el saldo almacenado en localStorage
+var saldoAlmacenado = localStorage.getItem("saldo");
+if (saldoAlmacenado !== null) {
+    // Actualizar el saldo en la página de "main-page"
+    document.getElementById("saldo").textContent = saldoAlmacenado;
+}

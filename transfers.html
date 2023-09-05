@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles-main-page.css">
+</head>
+<body>
+    <div class="d-flex align-items-center min-vh-100 ">
+        <div class="container p-4 border border-5">
+            
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    
+                    <h1>Transferencia de Saldo</h1>
+                    <p>Saldo actual: <span id="saldoActual">1000</span></p>
+                    
+                    <form id="transferForm">
+                        <label for="destinatario">Destinatario:</label>
+                        <input type="text" id="destinatario" name="destinatario" required>
+                        <label for="monto">Monto a transferir:</label>
+                        <input type="number" id="monto" name="monto" required>
+                        <button type="submit">Transferir</button>
+                    </form>
+    
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </div>
+
+    <script src="./scripts/transfers.js"></script>
+</body>
+</html>
