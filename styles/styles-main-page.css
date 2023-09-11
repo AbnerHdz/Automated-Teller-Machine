@@ -1,8 +1,14 @@
+
 .navbar-custom {
-    background-color: black;
+   background-color: rgb(0, 0, 0);
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
     color: white;
+}
+
+/* Cambiar el color del ícono de hamburguesa a blanco */
+.navbar-toggler-icon {
+    color: white !important;
 }

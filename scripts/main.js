@@ -9,7 +9,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     // Verifica si las credenciales son correctas (ajusta las validaciones según tus necesidades)
     if (email === "abnerhdz@hotmail.com" && password === "12345abc") {
         // Abre una nueva ventana //
-        window.open("main-page.html", "_blank");
+        window.open("main-page.html");
     } else {
         alert("Credenciales incorrectas. Por favor, intenta de nuevo.");
     }
